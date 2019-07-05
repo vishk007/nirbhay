@@ -1,0 +1,78 @@
+package marks;
+
+import java.util.Scanner;
+
+class Student
+
+{
+
+public static void main(String args[])
+
+{
+
+String name;
+
+int reg, m1,m2,m3;
+
+float total;
+
+Scanner demo = new Scanner(System.in);
+
+System.out.print("RAM: ");
+System.out.println("Enter marks obtained in 3 subjects: ");
+m1 = demo.nextInt();
+
+m2 = demo.nextInt();
+
+m3 = demo.nextInt();
+
+total = m1 + m2 + m3;
+System.out.println("Total marks = " + total);
+
+System.out.print("SHAM: ");
+System.out.println("Enter marks obtained in 3 subjects: ");
+m1 = demo.nextInt();
+
+m2 = demo.nextInt();
+
+m3 = demo.nextInt();
+
+total = m1 + m2 + m3;
+System.out.println("Total marks = " + total);
+
+System.out.print("SONA ");
+System.out.println("Enter marks obtained in 3 subjects: ");
+m1 = demo.nextInt();
+
+m2 = demo.nextInt();
+
+m3 = demo.nextInt();
+
+total = m1 + m2 + m3;
+System.out.println("Total marks = " + total);
+
+System.out.print("RAJ ");
+System.out.println("Enter marks obtained in 3 subjects: ");
+m1 = demo.nextInt();
+
+m2 = demo.nextInt();
+
+m3 = demo.nextInt();
+
+total = m1 + m2 + m3;
+System.out.println("Total marks = " + total);
+
+System.out.print("KAVITA ");
+System.out.println("Enter marks obtained in 3 subjects: ");
+m1 = demo.nextInt();
+
+m2 = demo.nextInt();
+
+m3 = demo.nextInt();
+
+total = m1 + m2 + m3;
+System.out.println("Total marks = " + total);
+
+}
+
+}
